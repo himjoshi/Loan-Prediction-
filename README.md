@@ -1,5 +1,23 @@
-# Loan-Prediction-
+# Loan-Prediction
 This is my first classification project where we need to classify whether the person will get loan or not according to the different
 perameters.
-The training dataset contains 614 observations and 12 independent variables and the data is incomplete.
-Data visualization is used to fill those missing values and different machine learning algorithms were trained on the training dataset.
+The training dataset contains 614 observations and 13 independent variables and we have an incomplete dataset.
+
+Libraries Used:  numpy,pandas,matplot, sklearn
+
+
+Data visualization is used to fill the missing values.
+
+Cross validation is also used for proper training of the dataset and different machine learning algorithms are used to train the dataset.
+
+Accuracies Found On the training dataset:
+
+Logistic Regression : 82.40%
+
+Random Forest : 76.97%
+
+Decision Tree: 70.66%
+
+Logistic Regression has givem maximum accuracy as the relationship is linear between independent and dependent variable.
+
+
